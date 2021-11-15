@@ -1,2 +1,0 @@
-# bajal.github.io
-Website
