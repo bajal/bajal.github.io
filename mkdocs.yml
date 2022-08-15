@@ -16,9 +16,8 @@ theme:
     primary: "indigo"
     accent: "blue"
   font:
-    text: "Nanum Gothic"
+    text: "Roboto"
     code: "Roboto Mono"
-  #logo: "images/nyt-logo.svg"
   features:
     - tabs
     - navigation.instant
@@ -29,11 +28,9 @@ nav:
   - Home: index.md
   - Notes:
       - Git: git_tips.md
-      - Golang: golang.md
-      - Local SFTP server: sftpgo.md
-  # - Personal:
-  #     - Places Visited: places_visited.md
-  #- Competetive Programming:
-  #    - LeetCode List: leetcode_list.md
-  - AWS:
-      - SAA02: aws-saa02.md
+      - Golang:
+          - Intro: golang.md
+          - Learning: learning_go.md
+      - Running Local SFTP server: sftpgo.md
+      - AWS:
+          - SAA02: aws-saa02.md
