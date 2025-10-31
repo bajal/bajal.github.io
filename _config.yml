@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+# Site settings
+title: My Blog
+description: A blog about my thoughts, projects, and experiences
+author: Your Name
+email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-architect
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Social links (optional)
+github_username: bajal
+# twitter_username: your_username
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Timezone
+timezone: America/Los_Angeles
+
