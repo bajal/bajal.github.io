@@ -1,30 +1,36 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
+# Solar theme configuration
 
 # Site settings
-title: My Blog
-description: A blog about my thoughts, projects, and experiences
+name: Solar Theme
+url: https://bajal.github.io
+description: A stylish blog using the Solarized color palette
 author: Your Name
 email: your-email@example.com
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - Rakefile
   - node_modules
   - vendor/bundle/
   - vendor/cache/
@@ -39,14 +45,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Your Name"
 
-# Social links (optional)
+# Social links
 github_username: bajal
-# twitter_username: your_username
-
-# Analytics (optional)
-# google_analytics: UA-XXXXXXXX-X
+# twitter_username: your_twitter
 
 # Timezone
 timezone: America/Los_Angeles
